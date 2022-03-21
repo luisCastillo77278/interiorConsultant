@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+.bar-menu{
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.close-menu{
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.title{
+  padding: 10px 20px;
+  border: 1px solid #FFFFFF;
+}
+
+.title a{
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: 'Crimson Pro';
+}
+
+.navbar{
+  background-color: black;
+  width: 100%;
+}
+
+.navbar-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.links{
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all 0.5s;
+  z-index: 2;
+}
+
+.show{
+  top: 0px;
+}
+
+.links-header{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10px;
+}
+
+.links ul{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul li{
+  margin: 10px;
+}
+
+.links ul li a{
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.links ul li .active{
+  border-bottom: 3px solid #FFFFFF;
+}
+
+/* ======== main */
+.main{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content{
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.main-content h1{
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: 'Lora';
+}
+
+.main-content p{
+  width: 71%;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: 'Montserrat';
+}
+
+.main-content a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-bottom: 20px;
+  display: block;
+  font-family: 'Montserrat';
+  color: #FFFFFF;
+}
+
+.main-picture{
+  position: relative;
+}
+
+.main-picture img{
+  padding: 10px;
+  width: 100%;
+}
+
+.card{
+  width: 70%;
+  background-color: black;
+  position: absolute;
+  bottom: -40px;
+  right: 20px;
+  color: #FFFFFF;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+}
+
+.card-header img{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.cadr-name{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: 'Montserrat';
+}
+
+.card-especialization{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: 'Montserrat';
+}
+
+.card-body{
+  width: 200px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 0px 10px 10px 10px;
+  font-family: 'Lora';
+}
+
+footer{
+  margin: 150px 10px 10px 10px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #A9A9A9;
+  font-family: 'Montserrat';
+}
+
+
+@media all and ( min-width: 620px ){
+
+  .main{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .main-picture{
+    width: 60%;
+  }
+
+  .main-content{
+    max-width: 35%;
+  }
+
+  .links-header{
+    display: none;
+  }
+
+  .bar-menu{
+    display: none;
+  }
+
+  .links{
+    position: relative;
+    width: 50%;
+    transition: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .links ul{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navbar-content{
+    width: 40%;
+  }
+
+}
+
+
+@media all and (min-width: 950px){
+
+  .main{
+    padding-bottom: 0px;
+  }
+
+  .main-content h1{
+    font-size: 40px;
+    line-height: 61px;
+  }
+
+  .main-content p{
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .main-content a{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .main-picture{
+    width: 55%;
+  }
+
+  .main-content{
+    width: 35%;
+  }
+}

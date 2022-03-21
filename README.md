@@ -28,7 +28,6 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
-  - [Built With](#built-with)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -36,27 +35,16 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](assets/example.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- El demo del proyecto lo pueden enconrar en GitHub pages [Interior consultant](https://luiscastillo77278.github.io/interiorConsultant/)
+- La experiencia que obtuve al realizar este desafío fue la implementación de un diseño responsive con metodología mobile firs y añadiendo un poco de javacript para hacer dinamico el menú.
+- Siento que he mejorado en la cuestión de irme adaptando a crear diseños con CSS nativo.
+- Es mejor empezar a diseñar desde el modelo movile firs, desde dispositivos móviles hasta dispositivos desktop. Ya que se tiene un mejor control con los media query.
 
 ## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
@@ -64,7 +52,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [HTML, CSS and JS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 

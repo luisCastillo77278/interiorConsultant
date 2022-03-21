@@ -7,6 +7,9 @@ byName.innerHTML = `Luis Jesus Villegas Castillo ${ new Date().getFullYear() }`;
 
 btnMenu.addEventListener('click', ()=>{
   navLinks.classList.add('show');
+  window.onscroll = function(){
+    window.scrollTo(0,0);
+  }
 });
 
 btnClose.addEventListener('click', ()=>{
